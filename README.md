@@ -1,4 +1,5 @@
 # programaci-n-avanzada
+Proyecto playa de estacionamiento automático con IOT
 Logica del sistema de reserva<br>
 Los tres escenarios posibles:<br>
 
@@ -16,13 +17,14 @@ Las plazas disponibles disminuyen en 1 (el lugar queda guardado).
 Se genera un "Token o Permiso de Entrada" (un botón especial en la app ).
 Cuando el usuario llega físicamente al estacionamiento, presiona un botón en su app ("Abrir mi Reserva") que valida su entrada, levanta la barrera y cambia el estado de "Reservado" a "Ocupado".
 
+Se agrego foto de los datastream creados en la app:
 
 <img width="670" height="1218" alt="WhatsApp Image 2026-07-04 at 10 58 26" src="https://github.com/user-attachments/assets/8c093558-59ef-481a-883d-c8df362a6ec7" />
 
 
 Seguridad
-Para que la línea Blynk.logEvent("alerta_intruso", ...) envíe de verdad un mensaje de advertencia a la pantalla de tu celular:
-En la consola web de Blynk, entramos a Template y luego a "Eventos". 
+Se envía un mensaje de advertencia a la pantalla de tu celular:
+para ello en la consola web de Blynk, entramos a Template y luego a "Eventos". 
 Se agrego un nuevo evento con el nombre de código: alerta_intruso.
-Se configuro como tipo de evento como Critical (Crítico) y activa las casillas de (Enviar notificación a la aplicación móvil).
-Se agrego foto de los dashboard:
+Se configuro lo configuro como tipo de evento Critical (Crítico) y activa las casillas de (Enviar notificación a la aplicación móvil).
+
