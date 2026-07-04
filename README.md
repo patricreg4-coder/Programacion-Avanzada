@@ -24,9 +24,12 @@ Se agrego foto de los datastream creados en la app:
 
 Seguridad
 Se envía un mensaje de advertencia a la pantalla de tu celular:
-para ello en la consola web de Blynk, entramos a Template y luego a "Eventos". 
-Se agrego un nuevo evento con el nombre de código: alerta_intruso.
-Se configuro lo configuro como tipo de evento Critical (Crítico) y activa las casillas de (Enviar notificación a la aplicación móvil).
+En la web de Blynk, entramos a Template y luego a "Eventos". 
+Agregamos un nuevo evento con el nombre de código: alerta_intruso.
+Lo configuramos como tipo de evento Critical (Crítico) y activa las casillas de (Enviar notificación a la aplicación móvil).
+
+<img width="720" height="252" alt="WhatsApp Image 2026-07-04 at 15 42 01" src="https://github.com/user-attachments/assets/e0f6ffa3-6511-4d53-b20f-eb8e0f9c6469" />
+
 
 <img width="1600" height="1200" alt="WhatsApp Image 2026-07-04 at 15 19 10" src="https://github.com/user-attachments/assets/fd27af16-b7a9-46c3-9f9c-0523292881d2" />
 
